@@ -1,4 +1,4 @@
-log = hs.logger.new('hxms', 'debug')
+log = hs.logger.new('ccx', 'debug')
 
 require "modules/hotkey"
 require "modules/menu"
