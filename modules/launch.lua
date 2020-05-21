@@ -9,6 +9,7 @@ local key2App = {
     P = 'com.jetbrains.PhpStorm',
     F = 'com.google.Chrome.canary',
     V = 'com.microsoft.VSCode',
+    T = 'ru.keepcoder.Telegram'
 --    X = 'com.apple.Safari',
 --    L = 'com.alibaba.DingTalkMac',
 }
