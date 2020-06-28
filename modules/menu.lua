@@ -4,7 +4,7 @@ config_reload = function ()
     log.i('ready to reload config ...')
     log.i()
 
-    hs.notify.show('Hxms', 'Hammerspoon', 'hotkey trigger config reload ....')
+    hs.notify.show('ccx', 'Hammerspoon', 'hotkey trigger config reload ....')
 
     hs.reload()
 end
