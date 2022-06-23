@@ -3,21 +3,31 @@ local key2App = {
     C = 'com.googlecode.iterm2',
     G = 'com.google.Chrome',
     H = 'com.tencent.xinWeChat',
---    M = 'com.jetbrains.WebStorm',
-    D = 'com.alibaba.DingTalkMac',
---    D = 'com.jetbrains.datagrip',
+    -- N = 'io.remnote',
+    B = 'com.atlassian.trello',
+    j = 'com.jetbrains.datagrip',
     O = 'com.jetbrains.goland',
-    P = 'com.jetbrains.PhpStorm',
-    F = 'com.google.Chrome.canary',
-    V = 'com.microsoft.VSCode',
-    T = 'ru.keepcoder.Telegram'
---    X = 'com.apple.Safari',
---    L = 'com.alibaba.DingTalkMac',
+    P = 'com.readdle.PDFExpert-Mac',
+    L = 'com.jetbrains.CLion',
+    F = 'com.raycast.macos',
+    W = 'com.kingsoft.wpsoffice.mac.global.global',
+    -- M = 'com.electron.logseq',
+    M = 'com.tinyspeck.slackmacgap',
+    -- N = 'io.remnote',
+    N = 'com.electron.logseq',
+    -- N = 'md.obsidian', -- obsidian
+    -- N = 'com.google.Chrome.app.eegjccgfpodhobglndeojahnffghpcjk', -- remnote chrome app
+    K = 'com.TickTick.task.mac',  -- ticktick
+    D = 'com.electron.lark', -- lark/feishu
+    R = 'com.eusoft.eudic', -- eudic
+    -- U = 'com.hnc.Discord', -- discord
+    T = 'ru.keepcoder.Telegram', -- firefox
+    V = 'com.microsoft.VSCode', --vscode
 }
 
 for key, app in pairs(key2App) do
     hotkey.bind(hyper, key, function()
-                    toggle_application(app)
+       toggle_application(app)
     end)
 end
 
@@ -53,9 +63,9 @@ end
 hotkey.bind(hyper, '`', 'show bundleid', function()
     local cur = application.frontmostApplication()
     log.i('output current application info...')
-    log.i(cur:name())
-    log.i(cur:bundleID())
-    log.i(cur:path())
+    log.i('name', cur:name())
+    log.i('bundleid', cur:bundleID())
+    log.i('path', cur:path())
     local win = hs.window.focusedWindow()
     if win then
         log.i(win:frame())

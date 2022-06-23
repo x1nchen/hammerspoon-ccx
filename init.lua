@@ -14,6 +14,8 @@ hs.grid.MARGINX    = 0
 hs.grid.MARGINY    = 0
 hs.window.animationDuration = 0
 
+hs.application.enableSpotlightForNameSearches(true)
+
 
 hs.hotkey.bind(cmdalt, 'J', hs.grid.pushWindowDown)
 hs.hotkey.bind(cmdalt, 'K', hs.grid.pushWindowUp)

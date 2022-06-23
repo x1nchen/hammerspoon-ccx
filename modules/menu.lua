@@ -4,9 +4,8 @@ config_reload = function ()
     log.i('ready to reload config ...')
     log.i()
 
-    hs.notify.show('ccx', 'Hammerspoon', 'hotkey trigger config reload ....')
-
     hs.reload()
+    hs.notify.show('ccx', 'hammerspoon', 'hotkey trigger config reloaded')
 end
 
 hotkey.bind(hyper, '\\', config_reload)
