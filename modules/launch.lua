@@ -1,16 +1,19 @@
 local key2App = {
+    -- I = I 不能使用，和 goland 冲突
+    E = 'org.gnu.Emacs',
     E = 'org.gnu.Emacs',
     C = 'com.googlecode.iterm2',
     G = 'com.google.Chrome',
     H = 'com.tencent.xinWeChat',
-    -- N = 'io.remnote',
-    B = 'com.atlassian.trello',
+    B = 'md.obsidian',
+    Y = 'com.google.Chrome.app.hcggeifnejlmamllipafdhamanebkbgk', -- readwise reader chrome web app
     j = 'com.jetbrains.datagrip',
     O = 'com.jetbrains.goland',
-    P = 'com.readdle.PDFExpert-Mac',
+    -- P = 'com.readdle.PDFExpert-Mac',
+    P = 'com.lencx.chatgpt',
     L = 'com.jetbrains.CLion',
     F = 'com.raycast.macos',
-    W = 'com.kingsoft.wpsoffice.mac.global.global',
+    W = 'com.devon-technologies.think3',
     -- M = 'com.electron.logseq',
     M = 'com.tinyspeck.slackmacgap',
     -- N = 'io.remnote',
@@ -20,8 +23,9 @@ local key2App = {
     K = 'com.TickTick.task.mac',  -- ticktick
     D = 'com.electron.lark', -- lark/feishu
     R = 'com.eusoft.eudic', -- eudic
-    -- U = 'com.hnc.Discord', -- discord
-    T = 'ru.keepcoder.Telegram', -- firefox
+    U = 'org.yuanli.utools', -- utools
+    -- T = 'ru.keepcoder.Telegram', -- firefox
+    T = 'com.DanPristupov.Fork', -- firefox
     V = 'com.microsoft.VSCode', --vscode
 }
 
