@@ -1,5 +1,6 @@
 # hammerspoon config
 
-my hammerspoon config derived from https://github.com/316181444
+- Hammerspoon Docs: https://www.hammerspoon.org/docs/
+
 
 

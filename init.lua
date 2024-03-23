@@ -73,6 +73,12 @@ hs.hotkey.bind(cmdalt, "Down", function()
 end)
 
 
+
+hs.hotkey.bind(cmdalt, "return", function() focusedWindowFirst(
+  function() toggle_window_maximized() end) end)
+
+
+
 local sizeup = {}
 
 --- Multiple Monitor Actions ---

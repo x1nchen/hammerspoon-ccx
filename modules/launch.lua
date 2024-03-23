@@ -5,30 +5,20 @@ local key2App = {
     C = 'com.googlecode.iterm2',
     G = 'com.google.Chrome',
     H = 'com.tencent.xinWeChat',
-    -- B = 'md.obsidian',
-    B = 'io.capacities.app',
-    -- Y = 'com.google.Chrome.app.hcggeifnejlmamllipafdhamanebkbgk', -- readwise reader chrome web app
-    -- Y = 'com.jetbrains.pycharm',
-    j = 'com.jetbrains.datagrip',
-    O = 'com.jetbrains.goland',
-    -- P = 'com.readdle.PDFExpert-Mac',
-    -- P = 'com.lencx.chatgpt',
-    -- P = 'com.linear',
-    -- L = 'com.jetbrains.CLion',
-    L = 'com.jetbrains.pycharm',
+    B = 'com.lencx.chatgpt', -- chatGPT desktop
+    j = 'com.jetbrains.datagrip', -- datagrip
+    O = 'com.jetbrains.goland', -- goland
+    L = 'com.jetbrains.rustrover-EAP', -- pycharm
     F = 'com.raycast.macos',
-    W = 'com.devon-technologies.think3',
-    -- M = 'com.electron.logseq',
-    M = 'com.tinyspeck.slackmacgap',
+    W = 'com.devon-technologies.think3', -- devonthink3
+    P = 'com.pake.2653e8',
+    M = 'tv.imgo.zaimang',
     N = 'com.electron.logseq',
-    -- N = 'md.obsidian', -- obsidian
-    -- N = 'com.google.Chrome.app.eegjccgfpodhobglndeojahnffghpcjk', -- remnote chrome app
     K = 'com.TickTick.task.mac',  -- ticktick
     D = 'com.electron.lark', -- lark/feishu
     R = 'com.eusoft.eudic', -- eudic
     U = 'org.yuanli.utools', -- utools
     T = 'ru.keepcoder.Telegram', -- firefox
-    -- T = 'com.DanPristupov.Fork', -- firefox
     V = 'com.microsoft.VSCode', --vscode
 }
 
@@ -88,4 +78,6 @@ hotkey.bind(hyper, '`', 'show bundleid', function()
         --win:setSize(s)
         --win:setFrameInScreenBounds(screen_f)
     end
+    -- set bundleID to clipboard
+    hs.pasteboard.setContents(cur:bundleID())
 end)

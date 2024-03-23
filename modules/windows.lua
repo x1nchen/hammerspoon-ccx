@@ -168,8 +168,8 @@ resize_win_list = hs.window.visibleWindows()
 
 
 hotkey.bind(hyper, '0', function() mouseHighlight() end)
-hotkey.bind(hyper, 'tab', function() focusedWindowFirst(
-                    function() toggle_window_maximized() end) end)
+-- hotkey.bind(hyper, 'tab', function() focusedWindowFirst(
+--                     function() toggle_window_maximized() end) end)
 hotkey.bind(hyper, '/', function() hints.windowHints() end)
 -- hotkey.bind(hyper, '=', function() focusedWindowFirst(
 --                     function() fullScreen(hs.window.focusedWindow()) end) end)
