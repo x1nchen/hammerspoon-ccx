@@ -1,7 +1,4 @@
 local key2App = {
-    -- I = I 不能使用，和 goland 冲突
-    -- E = 'org.gnu.Emacs',
-    -- C = 'dev.warp.Warp-Stable',
     C = 'com.googlecode.iterm2',
     G = 'com.google.Chrome',
     H = 'com.tencent.xinWeChat',
@@ -9,12 +6,11 @@ local key2App = {
     B = 'md.obsidian', -- obsidian
     j = 'com.jetbrains.datagrip', -- datagrip
     O = 'com.jetbrains.goland', -- goland
-    P = 'com.jetbrains.pycharm', -- pycharm
+    P = 'cn.xterminal.www', -- xterminal
     L = 'com.todesktop.230313mzl4w4u92', -- cursor
     F = 'com.raycast.macos',
     E = 'com.devon-technologies.think3', -- devonthink3
     W = 'com.kingsoft.wpsoffice.mac',
-    -- P = 'com.pake.2653e8',
     M = 'tv.imgo.zaimang',
     N = 'com.electron.logseq',
     K = 'com.TickTick.task.mac',  -- ticktick
@@ -23,6 +19,7 @@ local key2App = {
     U = 'org.yuanli.utools', -- utools
     T = 'ru.keepcoder.Telegram', -- firefox
     V = 'com.microsoft.VSCode', --vscode
+    Y = 'com.electron.noi' -- noi
 }
 
 for key, app in pairs(key2App) do
