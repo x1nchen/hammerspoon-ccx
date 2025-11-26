@@ -2,24 +2,26 @@ local key2App = {
     C = 'com.googlecode.iterm2',
     G = 'com.google.Chrome',
     H = 'com.tencent.xinWeChat',
-    -- B = 'com.lencx.chatgpt', -- chatGPT desktop
     B = 'md.obsidian', -- obsidian
     j = 'com.jetbrains.datagrip', -- datagrip
     O = 'com.jetbrains.goland', -- goland
-    P = 'cn.xterminal.www', -- xterminal
-    L = 'com.todesktop.230313mzl4w4u92', -- cursor
+    -- L = 'com.exafunction.windsurf', -- windsurf
+    -- L = 'org.mozilla.firefox', -- firefox
+    P = 'com.todesktop.230313mzl4w4u92', -- cursor
     F = 'com.raycast.macos',
     E = 'com.devon-technologies.think3', -- devonthink3
     W = 'com.kingsoft.wpsoffice.mac',
     M = 'tv.imgo.zaimang',
-    N = 'com.electron.logseq',
+    -- N = 'com.electron.logseq',
+    -- N = 'org.mozilla.firefox', -- firefox
     K = 'com.TickTick.task.mac',  -- ticktick
     D = 'com.electron.lark', -- lark/feishu
     R = 'com.eusoft.eudic', -- eudic
     U = 'org.yuanli.utools', -- utools
     T = 'ru.keepcoder.Telegram', -- firefox
     V = 'com.microsoft.VSCode', --vscode
-    Y = 'com.electron.noi' -- noi
+    Y = 'com.electron.noi', -- noi
+    [','] = 'com.apple.finder' -- finder
 }
 
 for key, app in pairs(key2App) do
